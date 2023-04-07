@@ -1,0 +1,61 @@
+
+
+============================== 2023-04-07 12:04:05.845883 | b2c18d1a-fd13-4c45-acfd-ded1c58407ba ==============================
+[0m12:04:05.845883 [info ] [MainThread]: Running with dbt=1.4.5
+[0m12:04:05.846640 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/thiagomgoncalves/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'snowflake-dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m12:04:05.846740 [debug] [MainThread]: Tracking: tracking
+[0m12:04:05.857123 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d335b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d7afe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d7a8f0>]}
+
+
+============================== 2023-04-07 12:09:08.473721 | 5a5a5711-baa4-4b24-bbd8-e5f91f431080 ==============================
+[0m12:09:08.473721 [info ] [MainThread]: Running with dbt=1.4.5
+[0m12:09:08.474459 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/thiagomgoncalves/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m12:09:08.474549 [debug] [MainThread]: Tracking: tracking
+[0m12:09:08.483508 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1081d7610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10821db10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10821f040>]}
+[0m12:09:28.634684 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/include/starter_project
+[0m12:27:40.687176 [info ] [MainThread]: Profile snowflake_dbt written to /Users/thiagomgoncalves/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:27:40.689677 [info ] [MainThread]: 
+Your new dbt project "snowflake_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:27:40.691935 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1081d7610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10821c7f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10821ead0>]}
+[0m12:27:40.692998 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-07 12:28:08.177850 | 4c8e0feb-c785-4aed-99eb-f9a7fd8df55b ==============================
+[0m12:28:08.177850 [info ] [MainThread]: Running with dbt=1.4.5
+[0m12:28:08.178566 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/thiagomgoncalves/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m12:28:08.178655 [debug] [MainThread]: Tracking: tracking
+[0m12:28:08.189821 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a244c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a25570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a265f0>]}
+[0m12:28:13.677471 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/include/starter_project
+[0m12:29:03.958845 [info ] [MainThread]: Profile dbt_test written to /Users/thiagomgoncalves/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:29:03.960062 [info ] [MainThread]: 
+Your new dbt project "dbt_test" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:29:03.960737 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a25570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a26830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a24700>]}
+[0m12:29:03.961284 [debug] [MainThread]: Flushing usage events
