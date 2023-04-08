@@ -1,4 +1,4 @@
-with order as (
+with orders as (
 
     select 
         customer_key,
@@ -6,6 +6,8 @@ with order as (
     from {{ref("stg_orders")}}
     group by customer_key
     order by total desc
-    limit 10
-
+    
 )
+
+select *
+from orders
